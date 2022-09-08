@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active__link{
+    background-color: red;
+    font: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 5rem 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.header__list{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+
+.header__item{
+    margin: 0rem 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+
+/* Diseño de seccion de los productos */
+
+.home__container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-home__header{
+    padding: 20px;
+    height: 15rem;
+}
+
+.card-home__img{
+    object-fit: contain;
+    width: 15rem;
+    height: 15rem;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    padding-bottom: 1rem;
+}
+
+.card__product{
+    margin: 2rem 3rem;
+    text-align: center;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20rem;
+    
+}
+
+.container__similar-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .img_cart_Shop{
+    width: 3rem;
+    height:3rem;
+    cursor: pointer;
+ }
+
+
+.price_and_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-home__name{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-home__price-label{
+    margin-bottom: 0.5rem;
+}
+
+.card-home__price-value{
+    font-size: 1.2rem;
+}
+
+.card-home__body{
+    margin-top: 3rem;
+}
+
+/* Detalles del productos */
+
+.product-desc{
+    width: 40rem;
+}
+
+.product-info__body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.product-info__quiantity{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.product-info__quiantity-{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.product-info__label{
+    text-align: center;
+}
+
+.btn__counter{
+    padding: 0.3rem 0.6rem;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+.btn__add__cart{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    background-color: brown;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+}
+
+.counter{
+    margin: 0rem 1rem;
+}
+
+.product-info__price-label{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.product-info__name{
+    margin-bottom: 1rem;
+}
+/* 
+Diseño del carrito de compras */
+
+.cart{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.cart__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 239, 220);
+    width: 30rem;
+    height: 15rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #b3b3b3;;
+}
+
+.cart__subtitle{
+    margin-bottom: 1rem;
+}
+
+.cart__name{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.cart__quantity{
+    margin-bottom: 3rem;
+}
+
+.cart__total-label{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.footer__section{
+    display: flex;
+    align-items: center;
+}
+
+.card__item-footer{
+    margin-right: 15rem;
+}
+
+.img__delete{
+    width: 2rem;
+    cursor: pointer;
+}
+
+/* Seccion del checkout del carrito */
+
+
+.total__checkout{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.cart__total-global{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.cart__total-global-value{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.cart__btn{
+    width: 30rem;
+    height: 2rem;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 5rem;
+}
+
+/* Diseño del login */
+
+.login__form__component{
+    display: flex;
+    justify-content: center;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 10px 10px 8px #b3b3b3;;
+}
+
+.login__title{
+    margin-bottom: 3rem;
+}
+
+.login__div-email{
+    margin-bottom: 1rem;
+}
+
+.loggin__password{
+    width: 10rem;
+    height: 1.5rem;
+}
+
+.login__label{
+    margin-right: 2rem;
+}
+
+.login__btn{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 2rem;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+/* diseño de descripcion de producto */
+
+.product-desc{
+    display: flex;
+    width: 100%;
+    padding: 0rem 4rem;
+}
+
+.product__detail-information{
+    width: 40rem;
+    margin-left: 4rem;
+}
